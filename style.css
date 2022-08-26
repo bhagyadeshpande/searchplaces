@@ -27,3 +27,32 @@ input[type=text]:focus {
 input[type=text]:disabled{
   background-color: rgb(233, 236, 239);
 }
+#shortcut{
+font-size: 12px;
+border: 1px solid rgb(222, 226, 230);
+border-radius: 2px;
+height: 24px;
+width: 43px;
+padding-left: 4px;
+padding-top: 2px;
+position: absolute;
+top: 23px;
+left: 200px;
+}
+table, th, td {
+  padding: 8px;
+}
+table td {
+  border-bottom: 1px solid rgb(222, 226, 230);
+  
+}
+table th{
+  border-bottom: 1px solid black;
+  font-weight: 700;
+}
+@media only screen and (max-width: 300px) {
+  body{
+  width: 100%;
+  }
+}
+

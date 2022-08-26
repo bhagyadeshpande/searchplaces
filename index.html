@@ -8,15 +8,52 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <input
-      id="searchbar"
-      onkeyup="search_place()"
-      type="text"
-      name="search"
-      placeholder="Search places..."
-    />
-    <br /><br />
-    <hr />
-    <script src="script.js"></script>
+    <div>
+      <label>
+        <input
+          id="searchbar"
+          type="text"
+          name="search"
+          placeholder="Search places..."
+        />
+        <span id="shortcut"> Ctrl + /</span>
+      </label>
+      <br /><br />
+      <hr />
+    </div>
+    <table>
+      <tr>
+        <th>#</th>
+        <th>Place Name</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Delhi</td>
+        <td>India</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Bengaluru</td>
+        <td>India</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Mumbai</td>
+        <td>India</td>
+      </tr>
+    </table>
+    <br />
+    <div class="pagination">
+      <a href="#">&laquo;</a>
+      <a href="#">1</a>
+      <a class="active" href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">6</a>
+      <a href="#">&raquo;</a>
+    </div>
+    <script type="script" src="script.js"></script>
   </body>
 </html>
